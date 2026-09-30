@@ -306,15 +306,6 @@ Participó en el diseño y armado del circuito en Wokwi, realizando las conexion
 
 También colaboró en las pruebas del sistema y en la verificación del funcionamiento de los controles.
 
-## Trabajo colaborativo
-
-Ambos integrantes trabajaron en conjunto para integrar el circuito y el programa, realizando pruebas para verificar el control de dirección, velocidad y detención del motor.
-
----
-
-# Resultado esperado
-
-Al ejecutar el proyecto, el usuario puede controlar el motor mediante los botones y el potenciómetro.
 
 ### FORWARD
 
