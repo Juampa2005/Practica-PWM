@@ -4,6 +4,7 @@
 
 * **Juan Pablo Ruiz Gil**
 * **Marco Uriel Castañeda Ávila**
+* **Eduardo Gabriel Prado Granados**
 
 ## Descripción
 
@@ -32,37 +33,6 @@ El proyecto utiliza los siguientes componentes:
 * Botón REVERSE
 * Botón STOP
 * Potenciómetro
-
----
-
-## Diagrama de conexiones
-
-### Control del motor
-
-
-El L298N recibe las señales de control de la Raspberry Pi Pico y las envía al controlador del motor.
-
----
-
-## Controlador del motor
-
-Las salidas del L298N se conectan al controlador `stepper-esc`:
-
-| L298N | Stepper ESC |
-| ----- | ----------- |
-| OUT1  | INA         |
-| OUT2  | INB         |
-
-Posteriormente, el controlador se conecta directamente al motor paso a paso:
-
-| Stepper ESC | Motor |
-| ----------- | ----- |
-| A-          | A-    |
-| A+          | A+    |
-| B+          | B+    |
-| B-          | B-    |
-
-Estas conexiones permiten controlar las dos fases del motor paso a paso.
 
 ---
 
